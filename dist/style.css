@@ -1,17 +1,60 @@
+.material-symbols-outlined {
+  color: white;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' -40,
+    'opsz' 24
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
 #header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
-  gap: 2vw;
-  background-color: #FCB0B3;
+  height: 100px;
+  gap: 1.5vw;
+  background-color: gray;
 }
 
 #input {
-  height: 10vh;
+  width: 20vw;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+#input:focus {
+  outline: none;
 }
 
 #button {
-  max-width: 100%;
-  height: auto;
+  font-size: 48px;
+}
+
+#page {
+  display: grid;
+  background-color: gray;
+  color: white;
+  margin-right: 35vw;
+  margin-left: 35vw;
+  margin-top: 10vh;
+  height: 400px;
+  grid-template-rows: 3fr 2fr;
+  border-radius: 30px;
+  border: 10px double white;
+}
+
+#upper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 3fr 1fr;
 }
