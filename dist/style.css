@@ -1,0 +1,17 @@
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  gap: 2vw;
+  background-color: #FCB0B3;
+}
+
+#input {
+  height: 10vh;
+}
+
+#button {
+  max-width: 100%;
+  height: auto;
+}
